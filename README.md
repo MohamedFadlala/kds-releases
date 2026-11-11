@@ -13,6 +13,7 @@ curl --fail --location --output "/tmp/$package" \
 ```
 
 Open **KDS** from the application menu or run `holool-kds`. To upgrade, repeat the command with a newer version that offers a `.deb` on the [releases page](https://github.com/MohamedFadlala/kds-releases/releases).
+
 Launch KDS as your normal desktop user. Only installation needs `sudo`. Version 0.1.32 fixes Linux machine identification used by activation and trials.
 
 If launching reports that the SUID sandbox helper is configured incorrectly, restore its installed permissions and launch again:
